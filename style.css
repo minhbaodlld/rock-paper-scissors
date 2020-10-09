@@ -1,0 +1,46 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    text-align: center;
+    color: rgb(37, 52, 255);
+    font-size: 20px;
+    font-weight: 600;
+    height: 95vh;
+    background: none;
+}
+
+#bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+#rps{
+    width: 30%;
+    height: 20%;
+    background-color: navajowhite;
+}
+
+.button{
+    border: none;
+    background-color: orangered;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}   
+
+#reset{
+    position: absolute; 
+    top: 70vh;
+    left: 45vw;
+    font-size: 20px;
+    background: rgb(55, 197, 223);
+    border: none;
+}   
